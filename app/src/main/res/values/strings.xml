@@ -5,5 +5,9 @@
     <string name="edit_text_inicio_sesion"></string>
     <string name="button_iniciar_sesion">Iniciar Sesión</string>
     <string name="button_modificar_credenciales">Modificar Credenciales</string>
-    <string name="label_bienvenido">Bienvenido:</string>
+    <string name="label_bienvenido">Bienvenido:\t\t</string>
+    <string name="button_poner_alarma">Poner Alarma</string>
+    <string name="label_hora">Hora:</string>
+    <string name="label_minutos">Minutos:</string>
+
 </resources>

@@ -5,4 +5,5 @@
     <color name="azulApp">#809FFF</color>
     <color name="moradoApp">#C080C0</color>
     <color name="fondo">#d9dba4</color>
+    <color name="fondoAlarma">#1F2631</color>
 </resources>

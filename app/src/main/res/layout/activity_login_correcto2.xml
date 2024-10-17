@@ -15,12 +15,13 @@
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent">
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.512">
 
     <TextView
         android:id="@+id/textViewBienvenido"
-        android:layout_width="219dp"
-        android:layout_height="29dp"
+        android:layout_width="264dp"
+        android:layout_height="33dp"
         android:layout_marginBottom="250dp"
         android:text="@string/label_bienvenido"
         android:textColor="@color/black"
@@ -30,5 +31,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTutorialsPoint"
+        android:layout_width="356dp"
+        android:layout_height="125dp"
+        android:backgroundTint="@color/azulApp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/android" />
+
+    <Button
+        android:id="@+id/buttonPonerAlarma"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:backgroundTint="@color/moradoApp"
+        android:text="@string/button_poner_alarma"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
   </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
