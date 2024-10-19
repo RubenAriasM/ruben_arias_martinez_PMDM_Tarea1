@@ -35,9 +35,7 @@ public class Login_Correcto_2 extends AppCompatActivity {
         TextView tvWelcome = findViewById(R.id.textViewBienvenido);
 
         //recover data
-
         Bundle extras = getIntent().getExtras();
-
         String name = extras.getString("name");
 
         tvWelcome.setText(tvWelcome.getText() + name);

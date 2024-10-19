@@ -37,12 +37,12 @@ public class Poner_Alarma_3 extends AppCompatActivity {
         btnAlarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String name = etName.toString();
-                int hour = etHour.getTextAlignment();
-                int minute = etMinute.getTextAlignment();
+                String name = etName.getText().toString();
+                int hour = Integer.parseInt(etHour.getText().toString());
+                int minute = Integer.parseInt(etMinute.getText().toString());
 
                 Log.i("Alarma", name+" "+hour+" "+minute);
-
+                //Inicio intent Alarma
                 Intent intentAlarma = new Intent(AlarmClock.ACTION_SET_ALARM)
                         .putExtra(AlarmClock.EXTRA_MESSAGE, name)
                         .putExtra(AlarmClock.EXTRA_HOUR, hour)
