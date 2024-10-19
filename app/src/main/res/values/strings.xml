@@ -9,5 +9,8 @@
     <string name="button_poner_alarma">Poner Alarma</string>
     <string name="label_hora">Hora:</string>
     <string name="label_minutos">Minutos:</string>
-
+    <string name="label_titulo_modificar_credenciales">Modificar Credenciales</string>
+    <string name="label_nuevo_nombre_usuario">Nuevo nombre de Usuario:</string>
+    <string name="label_nueva_contraseña">Nueva contraseña:</string>
+    <string name="button_guardar_cambios">Guardar Cambios</string>
 </resources>

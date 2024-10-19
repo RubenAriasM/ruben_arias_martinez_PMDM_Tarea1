@@ -32,7 +32,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Nuevo nombre de Usuario:"
+                android:text="@string/label_nuevo_nombre_usuario"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black"
                 android:textSize="16sp" />
@@ -63,7 +63,7 @@
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Nueva contraseña:"
+                android:text="@string/label_nueva_contraseña"
                 android:textColor="@color/black"
                 android:textColorHint="@color/black"
                 android:textSize="16sp" />
@@ -85,7 +85,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/moradoApp"
-            android:text="Guardar Cambios"
+            android:text="@string/button_guardar_cambios"
             android:textColor="@color/black"
             android:textSize="18sp" />
     </LinearLayout>
@@ -94,7 +94,7 @@
         android:id="@+id/textViewTituloModificarCredenciales"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Modificar Credenciales"
+        android:text="@string/label_titulo_modificar_credenciales"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"

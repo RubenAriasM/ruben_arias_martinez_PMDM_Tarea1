@@ -39,6 +39,7 @@
                 android:id="@+id/editTextName"
                 android:layout_width="121dp"
                 android:layout_height="wrap_content"
+                android:text="@string/edit_text_inicio_sesion"
                 android:textColor="@color/azulApp"
                 android:textColorHint="@color/azulApp" />
         </TableRow>
@@ -59,6 +60,7 @@
                 android:id="@+id/editTextHour"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/edit_text_inicio_sesion"
                 android:textColor="@color/azulApp"
                 android:textColorHint="@color/azulApp" />
         </TableRow>
@@ -79,6 +81,7 @@
                 android:id="@+id/editTextMinutes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/edit_text_inicio_sesion"
                 android:textColor="@color/azulApp"
                 android:textColorHint="@color/azulApp" />
         </TableRow>
